@@ -1,0 +1,1 @@
+export const CHANGE_OPEN = 'CHANGE_OPEN'

@@ -1,0 +1,4 @@
+export const CHANGE_CLASSITF_HOT_LIST = 'CHANGE_CLASSITF_HOT_LIST'
+export const ADD_COMMON = 'ADD_COMMON'
+export const DELETE_COMMON = 'DELETE_COMMON'
+export const ARRIVE = 'ARRIVE'

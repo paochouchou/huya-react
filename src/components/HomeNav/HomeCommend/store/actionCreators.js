@@ -9,7 +9,7 @@ export const changeRecommendList = (data) =>({
 export const getRecommendList =() =>{
     return (dispatch) =>{
         getRecommendRequest().then(data=>{
-            dispatch(changeRecommendList(data.data))
+            dispatch(changeRecommendList(data.data.data))
             dispatch(changeArrive(true))
         })
     }

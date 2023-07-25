@@ -9,7 +9,7 @@ export const changeClassifyHotList = (data) =>({
 export const getClassifyHotList =() =>{
     return (dispatch) =>{
         getClassifyHotRequest().then(data=>{
-            dispatch(changeClassifyHotList(data.data))
+            dispatch(changeClassifyHotList(data.data.data))
             dispatch(changeArrive(true))
         })
     }
